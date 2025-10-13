@@ -5,6 +5,6 @@ in
 pkgs.stdenv.mkDerivation {
   name = "my-shell";
   packages = [  ];
-  shellHook = "";
+  shellHook = '' echo "Node shell loaded lol " '';
   buildInputs = [ mynode ];
 }

@@ -1,0 +1,23 @@
+.container{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    tab-size: 10;
+    font-family: Pretendard,apple-system,system-ui,Helvetica,Arial,sans-serif;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    column-gap: 10px
+}
+
+.text-red{
+    color: hsl(343deg, 81%, 75%);
+}
+.text-maroon{
+    color: hsl(350deg, 65%, 77%);
+}
+.text-green{
+    color: hsl(115deg, 54%, 76%);
+}
+.text-saphire{
+    color: hsl(199deg, 76%, 69%);
+}

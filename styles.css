@@ -1,0 +1,25 @@
+body {
+  background-color: #1e1e2e;
+}
+
+.title{
+  font-size: 4.5rem;
+}
+
+.main-text{
+  font-family: Pretendard,apple-system,system-ui,Helvetica,Arial,sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #cdd6f4;
+}
+
+.photo{
+  transition: transform .1s ease-in-out;
+  width: 1em;
+  height: 1em;
+}
+.photo:hover{
+  transform: rotate(5deg);
+}
